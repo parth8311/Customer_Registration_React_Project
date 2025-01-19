@@ -1,0 +1,59 @@
+/* CustomerRegister.css */
+
+.customer-register-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.customer-register-title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.customer-register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.customer-register-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+.customer-register-input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.customer-register-button {
+  padding: 10px;
+  font-size: 16px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.customer-register-button:hover {
+  background-color: #0056b3;
+}
+
+.customer-register-button:active {
+  background-color: #004085;
+}
